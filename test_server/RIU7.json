@@ -1,0 +1,85 @@
+[
+{"charsetinfo": {"name": "utf-8"}},
+{
+"securities": [
+{
+	"metadata": {
+		"SECID": {"type": "string", "bytes": 36, "max_size": 0},
+		"BOARDID": {"type": "string", "bytes": 12, "max_size": 0},
+		"SHORTNAME": {"type": "string", "bytes": 75, "max_size": 0},
+		"SECNAME": {"type": "string", "bytes": 225, "max_size": 0},
+		"PREVSETTLEPRICE": {"type": "double"},
+		"STATUS": {"type": "string", "bytes": 3, "max_size": 0},
+		"DECIMALS": {"type": "int32"},
+		"MINSTEP": {"type": "double"},
+		"LASTTRADEDATE": {"type": "date", "bytes": 10, "max_size": 0},
+		"LASTDELDATE": {"type": "date", "bytes": 10, "max_size": 0},
+		"SECTYPE": {"type": "string", "bytes": 6, "max_size": 0},
+		"LATNAME": {"type": "string", "bytes": 90, "max_size": 0},
+		"ASSETCODE": {"type": "string", "bytes": 75, "max_size": 0},
+		"PREVOPENPOSITION": {"type": "int64"},
+		"LOTVOLUME": {"type": "int32"},
+		"INITIALMARGIN": {"type": "double"},
+		"HIGHLIMIT": {"type": "double"},
+		"LOWLIMIT": {"type": "double"},
+		"STEPPRICE": {"type": "double"}
+	}
+},
+[
+{"SECID": "RIU7", "BOARDID": "RFUD", "SHORTNAME": "RTS-9.17", "SECNAME": "Фьючерсный контракт RTS-9.17", "PREVSETTLEPRICE": 102600, "STATUS": null, "DECIMALS": 0, "MINSTEP": 10, "LASTTRADEDATE": "2017-09-21", "LASTDELDATE": "2017-09-21", "SECTYPE": "RI", "LATNAME": "RTS-9.17", "ASSETCODE": "RTS", "PREVOPENPOSITION": 661514, "LOTVOLUME": 1, "INITIALMARGIN": 12399.30, "HIGHLIMIT": 4620.00000, "LOWLIMIT": 4620.00000, "STEPPRICE": 11.98090}
+]
+],
+"marketdata": [
+{
+	"metadata": {
+		"SECID": {"type": "string", "bytes": 36, "max_size": 0},
+		"BOARDID": {"type": "string", "bytes": 12, "max_size": 0},
+		"BID": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"OFFER": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"SPREAD": {"type": "double"},
+		"OPEN": {"type": "double"},
+		"HIGH": {"type": "double"},
+		"LOW": {"type": "double"},
+		"LAST": {"type": "double"},
+		"QUANTITY": {"type": "int32"},
+		"LASTCHANGE": {"type": "double"},
+		"SETTLEPRICE": {"type": "double"},
+		"SETTLETOPREVSETTLE": {"type": "double"},
+		"OPENPOSITION": {"type": "double"},
+		"NUMTRADES": {"type": "int32"},
+		"VOLTODAY": {"type": "int64"},
+		"VALTODAY": {"type": "int64"},
+		"VALTODAY_USD": {"type": "int64"},
+		"UPDATETIME": {"type": "time", "bytes": 10, "max_size": 0},
+		"LASTCHANGEPRCNT": {"type": "double"},
+		"BIDDEPTH": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"BIDDEPTHT": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"NUMBIDS": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"OFFERDEPTH": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"OFFERDEPTHT": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"NUMOFFERS": {"type": "undefined", "bytes": 0, "max_size": 0},
+		"TIME": {"type": "time", "bytes": 10, "max_size": 0},
+		"SETTLETOPREVSETTLEPRC": {"type": "double"},
+		"SEQNUM": {"type": "int32"},
+		"SYSTIME": {"type": "datetime", "bytes": 19, "max_size": 0},
+		"TRADEDATE": {"type": "date", "bytes": 10, "max_size": 0},
+		"LASTTOPREVPRICE": {"type": "double"},
+		"OICHANGE": {"type": "int64"}
+	}
+},
+[
+{"SECID": "RIU7", "BOARDID": "RFUD", "BID": null, "OFFER": null, "SPREAD": 150, "OPEN": 102600, "HIGH": 102920, "LOW": 102410, "LAST": 102710, "QUANTITY": 1, "LASTCHANGE": 110, "SETTLEPRICE": 102710, "SETTLETOPREVSETTLE": 110, "OPENPOSITION": 658152, "NUMTRADES": 27567, "VOLTODAY": 60700, "VALTODAY": 7467979757, "VALTODAY_USD": 124078996, "UPDATETIME": "00:07:15", "LASTCHANGEPRCNT": 0.11, "BIDDEPTH": null, "BIDDEPTHT": null, "NUMBIDS": null, "OFFERDEPTH": null, "OFFERDEPTHT": null, "NUMOFFERS": null, "TIME": "23:49:59", "SETTLETOPREVSETTLEPRC": 0.11, "SEQNUM": 176711407, "SYSTIME": "2017-08-12 00:22:16", "TRADEDATE": "2017-08-11", "LASTTOPREVPRICE": 0.11, "OICHANGE": 3362}
+]
+],
+"dataversion": [
+{
+	"metadata": {
+		"version": {"type": "int32"},
+		"seqnum": {"type": "int32"}
+	}
+},
+[
+{"version": 208, "seqnum": 0}
+]
+]}
+]
